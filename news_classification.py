@@ -15,7 +15,6 @@ import sys
 # link = 'https://www.sciencedaily.com/releases/2021/12/211228135848.htm'
 # top_n = 5
 
-BASE_PATH = getattr(sys, '_MEIPASS', os.path.dirname(os.path.abspath(__file__)))
 # Dictionary & Function Definition
 inverse_label = {
     0: 'Business',
@@ -74,7 +73,7 @@ def lemmatization(text):
 
 
 # Load Model
-model = tf.keras.models.load_model(os.path.join(BASE_PATH, 'model/news_genre_classification.h5'))
+model = tf.keras.models.load_model('./model/news_genre_classification.h5')
 
 # Webapp
 st.title("News Genre Classification")
@@ -114,7 +113,7 @@ if (st.button('Classify')):
 
         # Count Words
         word_column = 'words'  # Column for List of Words
-        words = pd.read_csv(os.path.join(BASE_PATH, 'model/word_list_input.csv'))
+        words = pd.read_csv('model/word_list_input.csv')
         words = words[word_column].to_numpy()
         freq = np.zeros(len(words), dtype=int)
 
