@@ -9,6 +9,10 @@ The web app fetch the article from the given link. Then, the article was tokenis
 
 
 ## Results
-![Screenshot 2022-03-18 121406](https://user-images.githubusercontent.com/55189926/158936358-4d931049-4021-48ba-aeb1-ed6a95efd93d.png)
-![Screenshot 2022-03-18 121429](https://user-images.githubusercontent.com/55189926/158936370-c71ece58-ddf9-4f5a-ab8e-65aeb1fd5a30.png)
-
+<p align="center">
+  <img width="647" height="500" src="https://user-images.githubusercontent.com/55189926/158936358-4d931049-4021-48ba-aeb1-ed6a95efd93d.png">
+  <img width="598" height="500" src="https://user-images.githubusercontent.com/55189926/158936370-c71ece58-ddf9-4f5a-ab8e-65aeb1fd5a30.png">
+  <br>
+  Result 1a
+  Result 1b
+</p>
