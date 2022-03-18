@@ -1,6 +1,6 @@
 ## University Project under Natural Language Processing Subject (BITI3413)
 
-Link to [News Classification](https://biti3413-nlp-newsclassify.herokuapp.com/)
+Link to [News Classification](https://biti3413-nlp-newsclassify.herokuapp.com/)  
 Note: Opening this link may take up to 1 minute to load
 
 A web application were developed using Heroku. The AI which responsible in classifying the news were integrated to Heroku.
