@@ -4,7 +4,7 @@ Link to [News Classification](https://biti3413-nlp-newsclassify.herokuapp.com/)
 Note: Opening this link may take up to 1 minute to load
 
 A web application were developed using Heroku. The AI which responsible in classifying the news were integrated to Heroku.
-The web app fetch the article from the given link. Then, the article was tokenise into words to get the word frequency using Bag of Words (BOW). The AI classifies the news by reading the pattern number of words.
+The web app fetch the article from the given link. Then, the article was tokenise into words to get the word frequency based on 147 words using Bag of Words (BOW). The word frequency is then fed to the Neural Network and classifies the news by reading the pattern number of words.
 
 ## Model
 We use Neural Network to classify the news. In input layer, there are 147 nodes and each nodes represent the word.
