@@ -158,6 +158,7 @@ food			| 7.148693334
 society			| 7.146264275
 measure			| 7.118912537
 director		| 7.081201491
+
 Table above shows the 147 words used as node for input layer. The sum of TF IDF are the total value of TF IDF from each thousands of scraped articles.
 
 ## Results
