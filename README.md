@@ -176,3 +176,6 @@ Table above shows the 147 words used as node for input layer. The sum of TF IDF 
   <br>
   Result 2 (Page to <a href="https://www.malaymail.com/news/malaysia/2022/03/16/celcom-digi-maxis-and-u-mobile-welcome-govt-decision-to-rollout-5g-via-sing/2047827">Article</a>)
 </p>
+
+For result 1, the article was found using Google News in Science Category. The model for this project managed to guess correctly as it have certain keyword which made it able to classify the article as Science.  
+For result 2, the article was found using Google News in Business Category.  The model for this project failed to guess the article because the model does not have the capabilty to understand the context of the article. The model is only able to read the pattern of the word frequency.
