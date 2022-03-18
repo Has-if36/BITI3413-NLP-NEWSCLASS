@@ -23,5 +23,3 @@ The web app fetch the article from the given link. Then, the article was tokenis
   <br>
   Result 2 <a href="https://www.malaymail.com/news/malaysia/2022/03/16/celcom-digi-maxis-and-u-mobile-welcome-govt-decision-to-rollout-5g-via-sing/2047827">The Article</a>
 </p>
-
-![result 2b](https://user-images.githubusercontent.com/55189926/158937835-c6d9684f-45eb-4d3b-8975-09918eadcee8.png)
